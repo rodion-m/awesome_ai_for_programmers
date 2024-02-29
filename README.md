@@ -1,7 +1,6 @@
-# ChatGPT For Programmers
-This repo collects useful usecases of ChatGPT for programmers.
+# Awesome AI for Programmers
+В этом репозитории я собираю все самое интересное на тему применения AI в разработке ПО.
 
-# Russian
 ## Кейсы применения ChatGPT для разработчиков
 1. Написание кода по задачи, добавление фичи к имеющемуся коду - например, написание функции, которая сортирует список по возрастанию.
     1. Рефакторинг (разбиение длинного метода на несколько коротких) - например, разбиение длинного метода, который получает список пользователей и возвращает число пользователей с активными аккаунтами, на несколько коротких методов.
@@ -28,7 +27,7 @@ This repo collects useful usecases of ChatGPT for programmers.
 
 ### Промпт для именования тестов
 <details>
-  <summary>Показать промпт для именования тестов</summary>
+  <summary>Показать промпт для именования тестов по правилам, описанным в книге В. Хорикова "Принципы юнит-тестирования"</summary>
 You are a test namer. The user send you the tests names and you rename it ACCORDING to these rules:
 
 - **No rigid naming policy**: Avoid using a strict naming convention, as it may not provide a high-level description of complex behavior. Allow freedom of expression.
