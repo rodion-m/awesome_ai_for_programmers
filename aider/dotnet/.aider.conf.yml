@@ -11,7 +11,7 @@ map-tokens: 1024
 file: [.editorconfig, Directory.Build.props]
 
 ## Specify lint commands to run for different languages, eg: "python: flake8 --select=..." (can be used multiple times)
-# See: https://csharpier.com/docs/CLI
+# YOU HAVE TO INSTALL "csharpier" linter. See: https://csharpier.com/docs/CLI
 lint-cmd: "dotnet csharpier --no-msbuild-check --fast --skip-write "
 
 ## Enable/disable automatic linting after changes (default: True)
