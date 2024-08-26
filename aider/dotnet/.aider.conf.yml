@@ -1,0 +1,30 @@
+##########################################################
+# FROM: https://github.com/paul-gauthier/aider/blob/main/website/assets/sample.aider.conf.yml
+# Sample .aider.conf.yaml
+# Place in your home dir, or at the root of your git repo.
+##########################################################
+
+## Max number of tokens to use for repo map, use 0 to disable (default: 1024)
+map-tokens: 1024
+
+## Files that 
+file: [.editorconfig, Directory.Build.props]
+
+## Specify lint commands to run for different languages, eg: "python: flake8 --select=..." (can be used multiple times)
+# See: https://csharpier.com/docs/CLI
+lint-cmd: "dotnet csharpier --no-msbuild-check --fast --skip-write "
+
+## Enable/disable automatic linting after changes (default: True)
+auto-lint: true
+
+## Specify the command to run tests
+test-cmd: "dotnet build"
+
+## Enable/disable automatic testing after changes (default: False)
+auto-test: true
+
+## Optional prompt caching to reduce tokens pricing
+cache-prompts: true
+
+## If true, cached tokens pricing calculation is more precise
+no-stream: true
